@@ -1,0 +1,10 @@
+
+public class PotentialTenant extends User {
+
+	public PotentialTenant(String houseType, String name, String phoneNumber, String location, String email, double price, double bookingFee) {
+		super(houseType, name, phoneNumber, location, email, price, bookingFee);
+		
+	}
+	
+
+}

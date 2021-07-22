@@ -1,0 +1,34 @@
+import java.util.Scanner;
+public class UserTest {
+
+
+	public static void main(String[] args) {
+		Scanner input=new Scanner(System.in);
+		User user=new User("Bedsitter","Juniour","0-7-6-8-9-7-8-7-5-7","Juja","davyjuniour25@gmail.com",8000,4000);
+		System.out.println("Enter your personal details below:");
+		System.out.println("Enter the name: ");
+		String theName= input.nextLine();
+		user.setName(theName);
+        System.out.println("Enter house Type:");
+        String thehouseType=input.nextLine();
+        user.setHouseType(thehouseType);
+        System.out.println("Enter mobile Number");
+        String thePhoneNUmber=input.nextLine();
+        user.setPhoneNumber(thePhoneNUmber);
+        System.out.println("Enter location");
+        String theLocation=input.nextLine();
+        user.setLocation(theLocation);
+        System.out.println("Enter email");
+        String theEmail=input.nextLine();
+        user.setEmail(theEmail);
+        System.out.println("Enter House price");
+        Double thePrice=input.nextDouble();
+        user.setPrice(thePrice);
+        
+        
+        
+        
+        
+	}
+
+}

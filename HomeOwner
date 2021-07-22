@@ -1,0 +1,11 @@
+
+public class HomeOwner extends User {
+
+	public HomeOwner(String houseType, String name, String phoneNumber, String location, String email, double price, double bookingFee) {
+		
+		super(houseType, name, phoneNumber, location, email, price, bookingFee);
+		// TODO Auto-generated constructor stub
+	}
+
+
+}

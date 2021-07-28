@@ -1,0 +1,28 @@
+import javax.swing.JOptionPane;
+
+public class AdditionDialog {
+
+	public static void main(String[] args) {
+		String Name,
+		phoneNumber,email,housetype,price,location;
+		
+		Name=JOptionPane.showInputDialog("Enter "
+				+ "Name");
+		phoneNumber=JOptionPane.showInputDialog("Enter "
+				+ "phoneNumber");
+		email=JOptionPane.showInputDialog("Enter email");
+		housetype=JOptionPane.showInputDialog(" Enter Housetype");
+		price=JOptionPane.showInputDialog("Enter Price");
+		location=JOptionPane.showInputDialog("Enter Location");
+		//Sum = Name + Number2;
+		JOptionPane.showMessageDialog ( null,
+				"The following houses are available: Kensington-Kshs 8500",
+				"Registration Complete", JOptionPane.PLAIN_MESSAGE);
+		
+			System.exit(0);
+		
+				
+
+	}
+
+}
